@@ -1,0 +1,20 @@
+<model-viewer src="miraidonc.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.16444989876067817m 0.04010487970655405m 0.5579364528259156m" data-normal="-0.08383905939339342m 0.5256118176676954m 0.8465832677581647m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">前面的爪抓</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.16532965213373205m 0.041850128381572614m 0.5569145841558011m" data-normal="0.08306880762079479m 0.5271731870295254m 0.8456878880991454m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">另一個前面的爪抓</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.08767196880460745m 0.000507460993615351m 0.23444041904988894m" data-normal="0.01750786167698474m -0.9984913454109974m -0.05204332732287777m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">後面的爪抓</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.09114036341946823m 0.0008609485007287296m 0.22877476643938172m" data-normal="-0.017507861676984735m -0.9984913454109974m -0.052043327322877746m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">另一個後面的爪抓</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
